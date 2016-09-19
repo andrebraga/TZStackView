@@ -41,7 +41,7 @@ extension NSLayoutConstraint {
         case .Height: return "Height"
         case .CenterX: return "CenterX"
         case .CenterY: return "CenterY"
-        case .Baseline: return "Baseline"
+        case .LastBaseline: return "Baseline"
         case .FirstBaseline: return "FirstBaseline"
         case .NotAnAttribute: return "NotAnAttribute"
         case .LeftMargin: return "LeftMargin"
