@@ -9,7 +9,7 @@
 import Foundation
 import QuartzCore
 
-class TZFuncAnimationDelegate {
+@objc class TZFuncAnimationDelegate: NSObject, CAAnimationDelegate {
     private var completionFunc: ((CAAnimation, Bool) -> ())?
     
     init(completion: (CAAnimation, Bool) -> ()) {
